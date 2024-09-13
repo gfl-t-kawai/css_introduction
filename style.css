@@ -1,0 +1,51 @@
+/* body {
+    background-color: pink;
+} */
+/* .title {
+    background-color: pink;
+}
+.big {
+    font-size: 60px;
+} */
+/* #title {
+    background-color: pink;
+} */
+/* article * {
+    color: red;
+} */
+/* a[href$="co.jp"] {
+    color: red;
+} */
+/* article p:first-of-type {
+    color: red;
+}
+article p:last-child {
+    color: red;
+} */
+/* article p:not(:first-of-type) {
+    color: red;
+} */
+/* p:not(:hover) {
+    background-color: pink;
+} */
+/* h1::before {
+    content: "！！！";
+}
+h1::after {
+    content: "！！！";
+} */
+/* p::first-letter {
+    font-size: 50px;
+} */
+/* main article h1 {
+    color: red;
+} */
+/* main > h1 {
+    color: red;
+} */
+/* article p + p {
+    margin-top: 40px;
+} */
+article h1 ~ p {
+    color: red;
+}
