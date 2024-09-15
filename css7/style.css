@@ -1,0 +1,71 @@
+.container {
+    width: 1000px;
+    background-color: coral;
+    display: flex;
+}
+.item {
+    height: 200px;
+}
+
+
+.item1 {
+    background-color: pink;
+    /* flex: 1; */
+    /* width: 1000px; */
+    /* flex-grow: 6; */
+    /* flex-shrink: 3; */
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+.item2 {
+    background-color: skyblue;
+    /* flex: 2; */
+    /* width: 1000px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+
+.measure{
+    width: 1000px;
+    display: flex;
+    box-sizing: border-box;
+}
+.measure div{
+    padding: 5px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: right;
+}
+.measure div:nth-of-type(1){
+    background: rgb(188, 243, 188);
+}
+.measure div:nth-of-type(2){
+    background: rgb(119, 224, 119);
+}
+.measure div:nth-of-type(3){
+    background: rgb(119, 224, 119);
+}
+.measure div:nth-of-type(4){
+    background: rgb(95, 216, 95);
+}
+.measure div:nth-of-type(5){
+    background: rgb(66, 218, 66);
+}
+.measure div:nth-of-type(6){
+    background: rgb(42, 204, 42);
+}
+.measure div:nth-of-type(7){
+    background: rgb(25, 175, 25);
+}
+.measure div:nth-of-type(8){
+    background: rgb(15, 151, 15);
+}
+.measure div:nth-of-type(9){
+    background: rgb(8, 128, 8);
+}
+.measure div:nth-of-type(10){
+    background: green;
+}
